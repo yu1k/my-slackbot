@@ -12,8 +12,15 @@ function timeTest(){
     });
 }
 
+function postNotice(){
+    cron.schedule("* * * * * *", () => {
+        console.log("hoge");
+    });
+}
+
 function main(){
     timeTest();
+    postNotice();
 }
 
 main();
