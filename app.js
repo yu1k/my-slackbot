@@ -2,6 +2,8 @@
 
 const cron = require("node-cron");
 
+const apiToken = "xxxxxxxxxxx";
+
 //Node cronのテスト用
 function timeTest(){
     //秒 分 時　日 月　曜日
