@@ -36,6 +36,7 @@ module.exports = (robot) => {
         });
     }
 
+    //help機能
     function help(){
         //受け取ったメッセージ
         robot.hear(/botHelp>/i, response => {
