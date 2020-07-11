@@ -15,7 +15,8 @@ module.exports = (robot) => {
 
     function postNotice(){
         cron.schedule("* * * * * *", () => {
-            console.log("hoge");
+            msg.send(`hoge`);
+            //console.log("hoge");
         });
     }
 
